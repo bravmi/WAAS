@@ -29,7 +29,7 @@ const Settings = ({
   }, [selectedLanguage]);
 
   const [models, setModels] = useState([]);
-  const [selectedModel, setSelectedModel] = useState("large");
+  const [selectedModel, setSelectedModel] = useState("base");
 
   const [email, setEmail] = useState(localStorage.getItem("email"));
 
